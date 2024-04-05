@@ -15,18 +15,17 @@ Core Components and Examples:
 
 - **Grouping and Task Management with group_dag and task_dag**
   </br>Practice grouping tasks as subDAGs and using task groups for better organization and parallel execution within workflows.
-  </br>**group_dag.py**
+  </br>**dags/group_dag.py, dags/subdags/subdag_downloads.py and dags/subdags/subdag_transforms.py**
   </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/de4a7e72-5a48-4350-a1f3-33cf77d92b8a)![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/b54b44f9-9015-42f4-b5ed-f32fec8ecec1)![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/53c67283-6d81-4222-9eff-28a229c20196)
-  </br>**task_dag.py**
+  </br>**dags/task_dag.py, dags/groups/group_downloads.py and dags/groups/group_transforms.py**
   </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/f8ad964f-655f-4084-b947-374cd430123c)
-
-
-
-  </br>
+  
+- **Custom Plugins with elastic_dag**
+  </br>Develop custom plugins and integrate with Elasticsearch for dynamic data querying and indexing.
+  </br> **elastic_dag.py and plugins/hooks/elastic**
+  </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/30eebda8-b9ff-4921-803a-c491baccdd16)
 
   
-- Custom Plugins with elastic_dag: Develop custom plugins and integrate with Elasticsearch for dynamic data querying and indexing.
-
 - Cross-Communication with xcom_dag: Explore cross-communication between tasks using XCom to pass and share results.
 
 - Parallel Execution with parallel_dag: Test the parallel processing capabilities of tasks across different nodes using a Celery worker for efficient workload management.
