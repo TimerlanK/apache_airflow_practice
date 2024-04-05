@@ -8,7 +8,9 @@ Core Components and Examples:
 
 
 - **Dataset Scheduling with consumer and producer DAGs**</br>Utilize the dataset method for new scheduling techniques to handle dependencies and trigger tasks in a data-driven approach.
+</br>producer.py and consumer.py
 
+![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/5e84d116-2cbe-4c33-b811-45
 - Grouping and Task Management with group_dag and task_dag: Practice grouping tasks as subDAGs and using task groups for better organization and parallel execution within workflows.
 
 - Custom Plugins with elastic_dag: Develop custom plugins and integrate with Elasticsearch for dynamic data querying and indexing.
