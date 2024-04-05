@@ -2,6 +2,8 @@ This project is designed to provide hands-on experience with various aspects of 
 
 Core Components and Examples:
 - **Branching with branch_operator_dag**</br>Implement branching operators to control the flow of execution based on specific conditions.
+  ![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/262adf75-afdd-4212-9ce6-5b954018f51b)
+
 
 - **Dataset Scheduling with consumer and producer DAGs**</br>Utilize the dataset method for new scheduling techniques to handle dependencies and trigger tasks in a data-driven approach.
 
