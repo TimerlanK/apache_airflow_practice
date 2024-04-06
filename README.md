@@ -3,13 +3,13 @@ This project is designed to provide hands-on experience with various aspects of 
 Core Components and Examples:
 - **Branching with branch_operator_dag**
   </br>Implement branching operators to control the flow of execution based on specific conditions.
-  </br>**branch_operator.py**
+  </br>**dags/branch_operator.py**
   </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/262adf75-afdd-4212-9ce6-5b954018f51b)
 
 
 - **Dataset Scheduling with consumer and producer DAGs**
   </br>Utilize the dataset method for new scheduling techniques to handle dependencies and trigger tasks in a data-driven approach.
-  </br>**producer.py and consumer.py**
+  </br>**dags/producer.py and dags/consumer.py**
   </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/6e8d6e01-1b89-4247-a467-72a92aa55983)
 
 
@@ -26,6 +26,13 @@ Core Components and Examples:
   </br>![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/30eebda8-b9ff-4921-803a-c491baccdd16)
 
   
-- Cross-Communication with xcom_dag: Explore cross-communication between tasks using XCom to pass and share results.
+- **Cross-Communication with xcom_dag**
+  </br>Explore cross-communication between tasks using XCom to pass and share results.
+  </br> **dags/xcom_dag.py**
+  </br> ![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/e6931ac4-f8e8-4008-b407-74c43102faba)
 
-- Parallel Execution with parallel_dag: Test the parallel processing capabilities of tasks across different nodes using a Celery worker for efficient workload management.
+
+- Parallel Execution with parallel_dag
+ </br>Test the parallel processing capabilities of tasks across different nodes using a Celery worker for efficient workload management.
+ </br>
+ </br>
