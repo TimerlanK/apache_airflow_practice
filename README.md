@@ -32,7 +32,8 @@ Core Components and Examples:
   </br> ![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/e6931ac4-f8e8-4008-b407-74c43102faba)
 
 
-- Parallel Execution with parallel_dag
+- **Parallel Execution with parallel_dag**
  </br>Test the parallel processing capabilities of tasks across different nodes using a Celery worker for efficient workload management.
- </br>
- </br>
+ </br> **dags/parallel_dag.py**
+ </br> ![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/e3447931-9c91-44fb-b0a6-07266b2e8a68)![image](https://github.com/TimerlanK/apache_airflow_practice/assets/59342509/7a0f313a-0a48-4c37-8ed7-e58905d5e426)
+ </br> 4 tasks are in default worker and transform task is in high_cpu worker
